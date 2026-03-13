@@ -3,11 +3,13 @@ import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Projects from "./pages/ProjectsPage.jsx";
+import Error from "./pages/Error.jsx";
 import ProjectsDetailPage from "./pages/ProjectsDetailPage.jsx";
 
 const router = createHashRouter([
     {
         element: <Layout />,
+        errorElement: <Error />,
         children: [
             { path: "/", element: <Home /> },
             { path: "about", element: <About /> },

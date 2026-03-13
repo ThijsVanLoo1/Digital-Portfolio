@@ -1,9 +1,11 @@
 import {NavLink, Outlet} from "react-router";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 function Layout() {
     return (
         <>
+            <ScrollToTop />
             <div className="min-h-screen flex flex-col">
                 <header className="p-8">
                     <nav className="flex justify-end gap-6 mr-12">
