@@ -1,17 +1,17 @@
 # Thijs van Loo - Creative Developer Portfolio
 
-Welkom bij de officiële repository van de portfolio website van **Thijs van Loo**, een creatieve developer gespecialiseerd in interactieve technologie en game development.
+Welcome to the official repository of the portfolio website of **Thijs van Loo**, a creative developer specializing in interactive technology and game development.
 
-Deze website laat mijn projecten, vaardigheden en creatieve werk zien. Het is volledig gebouwd met **React**, **Tailwind CSS**.
+This website showcases my projects, skills, and creative work. It is fully built with **React** and **Tailwind CSS**.
 
 ---
 
-## 🛠️ Technologieën & Tools
+## 🛠️ Technologies & Tools
 
-De website is gebouwd met:
+The website is built with:
 
-- **React** – Voor component-based frontend
-- **React Router** – Voor navigatie tussen pagina's
-- **Tailwind CSS** – Voor styling en responsive design
-- **React Icons** – Voor tech/tool iconen
+- **React** – For component-based frontend development
+- **React Router** – For page navigation
+- **Tailwind CSS** – For styling and responsive design
+- **React Icons** – For technology and tool icons
 ---
