@@ -40,7 +40,7 @@ function Layout() {
                                 <FaGithub className="text-3xl hover:text-gray-400 transition-colors" />
                             </a>
                             <a
-                                href="#"
+                                href="https://www.linkedin.com/in/thijs-van-loo-9052353b7/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn profiel"
