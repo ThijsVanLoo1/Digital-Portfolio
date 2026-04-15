@@ -4,12 +4,14 @@ import elementalQuest from "../assets/elementalQuest.png";
 import novaraHealth from "../assets/novaraHealth.png";
 import natuurTocht from "../assets/natuurtocht.jpg";
 import scale from "../assets/scale.png";
+import sonarpop from "../assets/sonarpop.png";
 
 import {smaakspraakScreenshots} from "../assets/smaakspraak/screenshotsSmaakSpraak.js";
 import {elementalquestScreenshots} from "../assets/elementalQuest/elementalquest.js";
 import {scaleScreenshots} from "../assets/scale/scale.js";
 import {novarahealthScreenshots} from "../assets/novaraHealth/novaraHealth.js";
 import {natuurtochtScreenshots} from "../assets/natuurtocht/natuurtocht.js";
+import {sonarpopScreenshots} from "../assets/sonarpop/sonarpop.js";
 
 export const projects = [
     {
@@ -94,5 +96,24 @@ export const projects = [
         icons: ["Unity"],
         status: "Published",
         liveURL: "https://thijsvanloo1.itch.io/elemental-quest"
+    },
+    {
+        slug: "sonarpop",
+        image: sonarpop,
+        title: "Sonarpop",
+        description: "Sonarpop is a music discovery platform that uses a transparent and customizable AI recommendation system. Instead of acting as a “black box,” it gives users control over their recommendations through features like likes, genre preferences, and content blacklisting.",
+        longDescription: "Sonarpop is an innovative music platform focused on music discovery, with transparency and user control at its core. Unlike traditional streaming services, where recommendation algorithms often function as a black box, Sonarpop makes its AI system visible and actively adjustable by the user.\n" +
+            "\n" +
+            "Users can shape their music preferences through various interactions, such as liking tracks, adjusting genre preferences, and controlling the level of personalization. Additionally, the platform allows users to blacklist artists, genres, and songs, ensuring unwanted content is completely excluded from recommendations. This combination of positive and negative feedback results in a dynamic and highly personalized recommendation model.\n" +
+            "\n" +
+            "To further increase transparency, Sonarpop includes a statistics page where users can explore their listening behavior and understand what data is used to generate recommendations. This helps improve users’ understanding of how AI systems work and promotes AI literacy.\n" +
+            "\n" +
+            "Beyond personalized recommendations, users can also manage their own music by creating playlists. This combines intelligent music discovery with the familiar functionality of traditional music platforms.\n" +
+            "\n" +
+            "Sonarpop is designed for users who not only want to discover new music, but also want control over how those recommendations are generated. By making AI both visible and adjustable, the platform encourages a more transparent and conscious interaction with algorithmic systems.",
+        screenshots: sonarpopScreenshots,
+        icons: ["React", "TailwindCSS"],
+        status: "Showcase",
+        liveURL: "https://cmgt.hr.nl/projecten/Sonarpop"
     },
 ];

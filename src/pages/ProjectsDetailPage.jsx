@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 import { projects } from "../data/Projects.js";
 import { useState } from "react";
 import ToolTipIcon from "../components/ToolTipIcon.jsx";
-import { SiCss3, SiHtml5, SiJavascript, SiLaravel, SiPhp, SiTailwindcss, SiUnity } from "react-icons/si";
+import {SiCss3, SiHtml5, SiJavascript, SiLaravel, SiPhp, SiReact, SiTailwindcss, SiUnity} from "react-icons/si";
 
 function ProjectsDetailPage() {
     const { slug } = useParams();
@@ -15,7 +15,8 @@ function ProjectsDetailPage() {
         PHP: SiPhp,
         Unity: SiUnity,
         TailwindCSS: SiTailwindcss,
-        Laravel: SiLaravel
+        Laravel: SiLaravel,
+        React: SiReact
     };
 
     const [activeIndex, setActiveIndex] = useState(null);
