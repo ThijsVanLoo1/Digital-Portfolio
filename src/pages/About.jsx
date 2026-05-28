@@ -8,7 +8,9 @@ import {
     SiPhp,
     SiReact,
     SiTailwindcss,
-    SiUnity
+    SiUnity,
+    SiVite,
+    SiExpress
 } from "react-icons/si";
 import ToolTipIcon from "../components/ToolTipIcon.jsx";
 
@@ -23,21 +25,12 @@ function About() {
                     </h1>
 
                     <Paragraph>
-                        Hi there! I'm so glad you're here to learn more about me as a creative developer.
-                        Currently I'm a student at Rotterdam University of Applied Sciences where I'm working
-                        towards my Bachelor's degree in the course Creative Media & Game Technologies.
-                        I've been exploring the field of interactive technology and have been expanding my
-                        skillset for a couple of years now.
+                        I’m a second-year student in Creative Media & Game Technologies (CMGT) with a strong interest in full-stack development.
+                        During my studies, I’ve developed both front-end and back-end skills and enjoy building complete digital experiences from concept to implementation.
+                        I’m familiar with core web programming languages such as HTML, CSS, JavaScript, and PHP, as well as experience working with frameworks like Laravel and React.
                     </Paragraph>
-
                     <Paragraph>
-                        Besides my own study I'm also a peer-coach for CMGT, which means I act as a
-                        representative of the course on open days. It also involves assisting and
-                        supporting the first years of our course during their subjects and projects.
-
-                        For this, I get special classes which focuses on the key aspects of being a
-                        good coach. This includes training in feedback delivery, questioning
-                        techniques, and group explanations.
+                        While I see myself primarily as a starting full-stack developer, I naturally gravitate a bit more toward front-end development because of my interest in creating intuitive and engaging user experiences.
                     </Paragraph>
                 </div>
             </section>
@@ -58,12 +51,13 @@ function About() {
                         <div className="grid grid-cols-1 sm:grid-cols-[140px_1fr] gap-4 items-center">
                             <p className="text-lg text-[#D83A00]">Front-End</p>
 
-                            <div className="grid grid-cols-3 sm:grid-cols-5 gap-6">
+                            <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center">
                                 <ToolTipIcon icon={SiHtml5} label="HTML" />
                                 <ToolTipIcon icon={SiCss3} label="CSS" />
                                 <ToolTipIcon icon={SiJavascript} label="Javascript" />
                                 <ToolTipIcon icon={SiReact} label="React" />
                                 <ToolTipIcon icon={SiTailwindcss} label="Tailwindcss" />
+                                <ToolTipIcon icon={SiVite} label="Vite" />
                             </div>
                         </div>
 
@@ -71,9 +65,10 @@ function About() {
                         <div className="grid grid-cols-1 sm:grid-cols-[140px_1fr] gap-4 items-center">
                             <p className="text-lg text-[#D83A00]">Back-End</p>
 
-                            <div className="grid grid-cols-3 sm:grid-cols-5 gap-6">
+                            <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center">
                                 <ToolTipIcon icon={SiPhp} label="PHP" />
                                 <ToolTipIcon icon={SiLaravel} label="Laravel" />
+                                <ToolTipIcon icon={SiExpress} label="Express" />
                             </div>
                         </div>
 
@@ -81,7 +76,7 @@ function About() {
                         <div className="grid grid-cols-1 sm:grid-cols-[140px_1fr] gap-4 items-center">
                             <p className="text-lg text-[#D83A00]">Design</p>
 
-                            <div className="grid grid-cols-3 sm:grid-cols-5 gap-6">
+                            <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center">
                                 <ToolTipIcon icon={SiFigma} label="Figma" />
                             </div>
                         </div>
@@ -90,7 +85,7 @@ function About() {
                         <div className="grid grid-cols-1 sm:grid-cols-[140px_1fr] gap-4 items-center">
                             <p className="text-lg text-[#D83A00]">Game engines</p>
 
-                            <div className="grid grid-cols-3 sm:grid-cols-5 gap-6">
+                            <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center">
                                 <ToolTipIcon icon={SiUnity} label="Unity" />
                             </div>
                         </div>

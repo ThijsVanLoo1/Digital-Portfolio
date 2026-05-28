@@ -1,7 +1,6 @@
 import profilePic from "../assets/profile-picture.png";
 import PrimaryButton from "../components/PrimaryButton.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
-import novaraHealth from "../assets/novaraHealth.png";
 import { projects } from "../data/projects";
 
 function Home() {
@@ -22,8 +21,7 @@ function Home() {
                         </h2>
 
                         <p className="text-amber-50 text-base md:text-lg py-4 max-w-lg mx-auto md:mx-0">
-                            Welcome to my portfolio: a collection of projects and ideas where
-                            creativity is tested by boundaries and learning happens along the way.
+                            Welcome to my portfolio: a place where I show my collection of fully developed projects and concepts.
                         </p>
 
                         <div className="flex flex-wrap justify-center md:justify-start gap-6 py-4">
@@ -51,8 +49,8 @@ function Home() {
                     </h3>
                     <p className="text-amber-50 text-base md:text-left text-center max-w-lg mx-auto md:mx-0">
                         I'm a Creative Media & Game Technologies student at
-                        Rotterdam University of Applied Sciences with a focus
-                        on interactive development and web technologies.
+                        Rotterdam University of Applied Sciences with a strong focus
+                        on full-stack development and UX.
                     </p>
                     <div className="flex flex-wrap justify-center md:justify-start">
                         <PrimaryButton className="my-4 " to="/about">Read more</PrimaryButton>

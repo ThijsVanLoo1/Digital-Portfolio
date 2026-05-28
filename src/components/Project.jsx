@@ -1,5 +1,5 @@
 import {Link} from "react-router";
-import {SiCss3, SiHtml5, SiJavascript, SiLaravel, SiPhp, SiTailwindcss, SiUnity} from "react-icons/si";
+import {SiCss3, SiHtml5, SiJavascript, SiLaravel, SiPhp, SiReact, SiTailwindcss, SiUnity, SiVite} from "react-icons/si";
 import ToolTipIcon from "./ToolTipIcon.jsx";
 
 function Project({ project }) {
@@ -10,7 +10,9 @@ function Project({ project }) {
         PHP: SiPhp,
         Unity: SiUnity,
         TailwindCSS: SiTailwindcss,
-        Laravel: SiLaravel
+        Laravel: SiLaravel,
+        React: SiReact,
+        Vite: SiVite
     }
 
     return (
